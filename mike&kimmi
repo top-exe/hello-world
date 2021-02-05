@@ -1,0 +1,37 @@
+# mike & kimmi are mi to km and km to mi calculators
+def mike(x):
+    mike = x*0.6
+    if mike < 2:
+        print ("less than 2 kilometers, go ahead and walk")
+    else:
+        print ("More than 2 Kilometers, take the car")
+    print(mike)
+    
+    if mike < 1 :
+        print("of a kilometer")
+    else:
+        if mike == 1 :
+            print("1 total kilometer")
+        else: 
+            if mike > 1 :
+                print("total kilometers")
+                
+def kimmi(y):
+    kimmi = y*1.6
+    if kimmi < 1:
+        print ("less than a mile, go ahead and walk")
+    else:
+        print ("More than a mile, take the car")
+    print(kimmi)
+    
+    if kimmi < 1 :
+        print("of a mile")
+    else:
+        if kimmi == 1 :
+            print("1 total mile")
+        else: 
+            if kimmi > 1 :
+                print("total miles")
+                
+a = mike(x)
+b = kimmi(y)
